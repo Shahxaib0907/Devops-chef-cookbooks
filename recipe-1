@@ -1,0 +1,6 @@
+# Creata chef recipe to edit and add some date in file
+
+file "/file-1" do
+content "Hello this is Shahzaib"
+action :create
+end
