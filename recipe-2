@@ -1,0 +1,11 @@
+# Chef-recipe to create users and group using ruby
+
+user "Shahzaib"
+action :create
+end
+
+group "Devops-Chef"  # This is a group name.
+members Shahzaib # Now add user/members in this group
+actio :create
+append true
+end
